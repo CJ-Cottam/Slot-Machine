@@ -1,6 +1,6 @@
 // Fruit Machine
 // Cameron Cottam
-// Student Number: 1901441
+// Sumbited on the 2nd Decemember
 
 #include <cstdlib>
 #include <iostream>
@@ -31,7 +31,7 @@ int lines = 0; // How many lines the users is wanting to play.
 char input; // User Input
 int Hold_Num; // For the user to enter an int number in the holding section of the game.
 char Temp; // For the position swapping in the holds.
-char f = 156; // This is £ symbol
+char f = 156; // This is Â£ symbol
 
 
 int Lines_payout[5]; // Combines the pay of each lines together and is stored in an array.
@@ -114,7 +114,9 @@ int main()
 	}
 
 	system("cls");
+	cout << "Hope you enjoyed this game by Cameron Cottam" << endl;
 	cout << "Game Over" << endl;
+	system("pause");
 }
 
 // ------------------- Graphics -----------------------
